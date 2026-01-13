@@ -1,0 +1,88 @@
+
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+/* --------/* shared styles--------- */
+
+.display-flex{
+    display: flex;
+
+}
+.font-dark-1{
+    color:#131313;
+}
+.font-dark-2{
+    color: #424242;
+}
+.font-dark-3{
+
+}
+
+/* -------/* navbar styles ----- */
+.bg-light{
+    background: rgba(255, 144, 14, 0.1);
+
+}
+
+.navbar{
+    /* text-align: center; */
+    /* justify-content: center; */
+    justify-content: space-between;
+    align-items: center;
+
+}
+.brand{
+    font-size: 3em;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 18px;
+    
+}
+.nav-link{
+    text-decoration: none;
+    
+    
+}
+.nav-links{
+    gap: 40px;
+    text-align: center;
+    /* margin-top: 63px; */
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.banner{
+    text-align: center;
+    justify-content: center;
+}
+.banner-heading{
+    font-size: 4.5em;
+}
+.banner-p {
+    padding-bottom:10px;
+
+}
+.banner-button{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 144, 14, 1);
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: none;
+    margin: 32px;
+
+}
+.banner img{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 45px;
+}
+
+
