@@ -1,17 +1,17 @@
 
+/* --------/* shared styles--------- */
+/* --------/* shared styles--------- */
 
 .work-sans-font {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400px;
   font-style: normal;
 }
 
-/* --------/* shared styles--------- */
 
 .display-flex{
     display: flex;
-
+    
 }
 .font-dark-1{
     color:#131313;
@@ -20,10 +20,15 @@
     color: #424242;
 }
 .font-dark-3{
-    color: rgba(114, 114, 114, 1);
+    color:#727272;
 }
 
+
 /* -------/* navbar styles ----- */
+/* -------/* navbar styles ----- */
+/* -------/* navbar styles ----- */
+
+
 .bg-light{
     background: rgba(255, 144, 14, 0.1);
 
@@ -38,6 +43,7 @@
 }
 .brand{
     font-size: 3em;
+    padding-left: 5px;
 }
 .nav-item{
     list-style: none;
@@ -84,21 +90,48 @@
     padding-top: 50px;
     padding-bottom: 45px;
 }
+
+/* ------main-section----- */
+/* ------main-section----- */
+
 .main-section{
     max-width: 1440px;
     margin: 0px auto;
 
 }
-.futures-section{
-    
-    /* justify-content: center;
-    text-align: center; */
+.img-features-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    padding-left:30px;
+
+}
+.futures-container{
+     /* padding: 267px 73px 301px 332px; */
+     padding-left: 73px;
+     padding-top: 267px;
+}
+.futures-container h3{
+    font-size: 3em;
+}
+.button-2{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 144, 14, 1);
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: none;
 }
 
+/* ------@media-screen------ */
+/* ------@media-screen------ */
 
 @media screen and (max-width:576px){
-    .display-flex{
+    .navbar{
         flex-direction: column;
+    }
+    .nav-links{
+        display: grid;
+        grid-template-columns: repeat(2 1fr);
     }
     .banner-p{
         padding-left:10px ;
@@ -106,4 +139,9 @@
     }
     
 }
-
+@media screen and (min-width:576px) and (max-width:992px){
+    .navbar{
+        flex-direction: column;
+    }
+    
+}
