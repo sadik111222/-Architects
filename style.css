@@ -42,7 +42,7 @@
 
 }
 .brand{
-    font-size: 3em;
+    font-size: 2.5em;
     padding-left: 5px;
 }
 .nav-item{
@@ -70,19 +70,19 @@
     justify-content: center;
 }
 .banner-heading{
-    font-size: 4.5em;
+    font-size: 3em;
 }
-.banner-p {
+/* .banner-p {
     padding-bottom:10px;
 
-}
+} */
 .button {
     color: rgba(255, 255, 255, 1);
     background-color: rgba(255, 144, 14, 1);
     padding: 15px 25px;
     border-radius: 8px;
     border: none;
-    margin: 32px;
+    margin: 3px;
 
 }
 .banner img{
@@ -99,17 +99,20 @@
     margin: 0px auto;
 
 }
+.futures-section{
+    padding-top: 85px;
+}
 .img-features-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
     padding-left:30px;
+    padding-right: 30px;
 
 }
 .futures-container{
-     /* padding: 267px 73px 301px 332px; */
      padding-left: 73px;
-     padding-top: 267px;
+     padding-top: 167px;
 }
 .futures-container h3{
     font-size: 3em;
@@ -121,6 +124,10 @@
     border-radius: 8px;
     border: none;
 }
+.img-features-container img {
+    width:;
+}
+
 
 /* ------@media-screen------ */
 /* ------@media-screen------ */
@@ -131,17 +138,51 @@
     }
     .nav-links{
         display: grid;
-        grid-template-columns: repeat(2 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .banner-p{
         padding-left:10px ;
         padding-right: 10px;
     }
+    .futures-section{
+        flex-direction: column;
+        padding-top: 40px;
+        
+    }
+    .img-features-container img{
+        width: 100%;
+    }
+    .futures-container{
+     padding-left: 10px;
+     padding-top: 5px;
+     padding-right: 5px;
+    }
+    .feures-h3{
+        font-size: .8em;
+    }
+    .img-features-container{
+    gap: 15px;
+    /* padding-bottom:10px; */
+    }
     
 }
+
+
 @media screen and (min-width:576px) and (max-width:992px){
     .navbar{
         flex-direction: column;
     }
+    .futures-section{
+        flex-direction: column;
+        
+    }
+    .futures-container{
+     padding-top: 40px;
+     padding-left: 15px;
+     padding-right: 8px;
+    }
+    .img-features-container{
+    gap: 15px;
     
+    }
 }
